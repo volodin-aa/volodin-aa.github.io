@@ -2,9 +2,9 @@
 layout: post
 title:  "Hello World!"
 date:   2015-09-05 23:59:56
-categories: jekyll update
+categories: test
 ---
 
 # "Hello World!"
 
-Куда уж без него.
+РљСѓРґР° СѓР¶ Р±РµР· РЅРµРіРѕ)))
