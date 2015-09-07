@@ -19,8 +19,4 @@ categories: Complicated
 
 > date:   2015-09-06 22:22:00 +0300
 
-Теперь дата выглядит так:
-
-> {{ post.date | date_to_xmlschema }}
-
 Есть предположение, что Jekyll GitHub Pages по умолчанию подхватывает тайм зону сервера.
