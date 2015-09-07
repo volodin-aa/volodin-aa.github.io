@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как настроить таймзону в Jekyll"
+title:  "Как настроить тайм зону в Jekyll"
 date:   2015-09-07 22:11:00 +0300
 categories: Complicated
 ---
