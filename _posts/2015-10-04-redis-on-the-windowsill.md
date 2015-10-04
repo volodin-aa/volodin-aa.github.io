@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Редис на подоконнке"
+title:  "Редис на подоконнике"
 date:   2015-10-04 23:13:00 +0300
 categories: Chaotic
 ---
