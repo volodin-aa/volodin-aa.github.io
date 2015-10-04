@@ -1,0 +1,235 @@
+# redis-benchmark
+====== PING_INLINE ======
+  100000 requests completed in 0.83 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.73% <= 1 milliseconds
+99.96% <= 2 milliseconds
+99.97% <= 13 milliseconds
+100.00% <= 13 milliseconds
+121065.38 requests per second
+
+====== PING_BULK ======
+  100000 requests completed in 0.79 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.87% <= 1 milliseconds
+99.92% <= 7 milliseconds
+99.94% <= 8 milliseconds
+99.97% <= 13 milliseconds
+100.00% <= 13 milliseconds
+126422.25 requests per second
+
+====== SET ======
+  100000 requests completed in 0.78 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.85% <= 1 milliseconds
+99.95% <= 8 milliseconds
+100.00% <= 8 milliseconds
+127551.02 requests per second
+
+====== GET ======
+  100000 requests completed in 0.80 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.64% <= 1 milliseconds
+99.87% <= 8 milliseconds
+99.90% <= 9 milliseconds
+99.92% <= 10 milliseconds
+99.95% <= 12 milliseconds
+99.95% <= 14 milliseconds
+100.00% <= 14 milliseconds
+124533.01 requests per second
+
+====== INCR ======
+  100000 requests completed in 0.78 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.80% <= 1 milliseconds
+99.93% <= 2 milliseconds
+99.95% <= 5 milliseconds
+99.95% <= 6 milliseconds
+100.00% <= 8 milliseconds
+100.00% <= 8 milliseconds
+128040.97 requests per second
+
+====== LPUSH ======
+  100000 requests completed in 0.76 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.79% <= 1 milliseconds
+99.96% <= 2 milliseconds
+99.97% <= 3 milliseconds
+100.00% <= 3 milliseconds
+131061.59 requests per second
+
+====== LPOP ======
+  100000 requests completed in 0.80 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.76% <= 1 milliseconds
+99.92% <= 8 milliseconds
+99.95% <= 13 milliseconds
+99.96% <= 14 milliseconds
+100.00% <= 14 milliseconds
+124843.95 requests per second
+
+====== SADD ======
+  100000 requests completed in 0.77 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.87% <= 1 milliseconds
+99.94% <= 2 milliseconds
+99.97% <= 7 milliseconds
+100.00% <= 7 milliseconds
+129701.68 requests per second
+
+====== SPOP ======
+  100000 requests completed in 0.79 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.67% <= 1 milliseconds
+99.93% <= 5 milliseconds
+99.97% <= 14 milliseconds
+100.00% <= 14 milliseconds
+126742.72 requests per second
+
+====== LPUSH (needed to benchmark LRANGE) ======
+  100000 requests completed in 0.81 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.66% <= 1 milliseconds
+99.80% <= 5 milliseconds
+99.87% <= 6 milliseconds
+99.92% <= 7 milliseconds
+99.96% <= 9 milliseconds
+99.99% <= 12 milliseconds
+100.00% <= 13 milliseconds
+123456.79 requests per second
+
+====== LRANGE_100 (first 100 elements) ======
+  100000 requests completed in 1.67 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+99.45% <= 1 milliseconds
+99.66% <= 3 milliseconds
+99.72% <= 5 milliseconds
+99.74% <= 6 milliseconds
+99.85% <= 8 milliseconds
+99.87% <= 9 milliseconds
+99.95% <= 12 milliseconds
+99.97% <= 14 milliseconds
+100.00% <= 14 milliseconds
+59737.16 requests per second
+
+====== LRANGE_300 (first 300 elements) ======
+  100000 requests completed in 4.62 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+15.99% <= 1 milliseconds
+98.72% <= 2 milliseconds
+98.89% <= 3 milliseconds
+99.04% <= 4 milliseconds
+99.14% <= 5 milliseconds
+99.25% <= 6 milliseconds
+99.40% <= 7 milliseconds
+99.49% <= 8 milliseconds
+99.64% <= 9 milliseconds
+99.71% <= 10 milliseconds
+99.80% <= 11 milliseconds
+99.82% <= 12 milliseconds
+99.89% <= 13 milliseconds
+99.94% <= 14 milliseconds
+100.00% <= 15 milliseconds
+100.00% <= 15 milliseconds
+21630.97 requests per second
+
+====== LRANGE_500 (first 450 elements) ======
+  100000 requests completed in 6.31 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+0.12% <= 1 milliseconds
+97.51% <= 2 milliseconds
+98.93% <= 3 milliseconds
+99.28% <= 4 milliseconds
+99.34% <= 5 milliseconds
+99.37% <= 6 milliseconds
+99.45% <= 7 milliseconds
+99.49% <= 8 milliseconds
+99.63% <= 9 milliseconds
+99.74% <= 10 milliseconds
+99.83% <= 11 milliseconds
+99.86% <= 12 milliseconds
+99.88% <= 13 milliseconds
+99.92% <= 14 milliseconds
+99.95% <= 15 milliseconds
+99.99% <= 16 milliseconds
+100.00% <= 16 milliseconds
+15845.35 requests per second
+
+====== LRANGE_600 (first 600 elements) ======
+  100000 requests completed in 8.06 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+0.09% <= 1 milliseconds
+58.17% <= 2 milliseconds
+98.29% <= 3 milliseconds
+98.74% <= 4 milliseconds
+98.93% <= 5 milliseconds
+99.13% <= 6 milliseconds
+99.26% <= 7 milliseconds
+99.37% <= 8 milliseconds
+99.49% <= 9 milliseconds
+99.62% <= 10 milliseconds
+99.69% <= 11 milliseconds
+99.71% <= 12 milliseconds
+99.72% <= 13 milliseconds
+99.73% <= 14 milliseconds
+99.82% <= 15 milliseconds
+99.97% <= 16 milliseconds
+100.00% <= 16 milliseconds
+12413.11 requests per second
+
+====== MSET (10 keys) ======
+  100000 requests completed in 1.21 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+
+97.38% <= 1 milliseconds
+99.58% <= 2 milliseconds
+99.67% <= 3 milliseconds
+99.76% <= 4 milliseconds
+99.86% <= 8 milliseconds
+99.95% <= 11 milliseconds
+100.00% <= 11 milliseconds
+82712.98 requests per second
