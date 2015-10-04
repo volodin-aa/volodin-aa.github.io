@@ -16,3 +16,9 @@ categories: Obvious
 "Нормализованные" результаты:
 
 ![Почти 2-х кратный прирост производительности](/files/tweak-docker-toolbox/norm.png "Нормализаванное сравнение производительности Redis 2.8 в 1-но и 4-х поточной Docker VM")
+
+P.S. Файлы результатов тестов:
+
+1. [1 ядро](/files/tweak-docker-toolbox/redis-benchmark-2.8-docker-1-thread.txt)
+2. [4 ядра](/files/tweak-docker-toolbox/redis-benchmark-2.8-docker-4-thread.txt)
+3. [Windows 10](/files/tweak-docker-toolbox/redis-benchmark-2.8-win.txt)
