@@ -5,7 +5,7 @@ date:   2015-10-11 20:44:00 +0300
 categories: Chaotic
 ---
 
-Не удержался, стравнил свежие версии Redis 3.0 под Docker и Windows 10.
+Не удержался, сравнил свежие версии Redis 3.0 под Docker и Windows 10.
 
 ##Тестовая кофигурация
 1. Windows 10: [Redis-x64-3.0.300-alpha3](https://github.com/MSOpenTech/redis/releases)
