@@ -8,7 +8,7 @@ categories: Chaotic
 Не удержался, сравнил свежие версии Redis 3.0 под Docker и Windows 10.
 
 ##Тестовая кофигурация
-1. Windows 10: [Redis-x64-3.0.300-alpha3](https://github.com/MSOpenTech/redis/releases)
+1. Windows 10: [Redis-x64-3.0.300-alpha3](https://github.com/MSOpenTech/redis/releases) (C:\Program Files\Redis>redis-server.exe --maxheap 768m)
 2. Docker: [Redis 3.0.3](https://hub.docker.com/_/redis/) во [многопоточном контейнере докера](/obvious/2015/10/04/tweak-docker-toolbox.html). 
 3. Процессор все тот же: [Intel® Core™ i7-3610QM](http://ark.intel.com/ru/products/64899)
 
