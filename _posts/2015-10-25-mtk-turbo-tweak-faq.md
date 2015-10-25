@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Часто задаваемые вопросы по MTK Turbo Tweak"
+title:  "Часто задаваемые вопросы по MTK Turbo Tweak FREE"
 date:   2015-10-25 11:30:00 +0300
 categories: MTK
 ---
