@@ -3,7 +3,8 @@ name:		Tweak.su
 title:		Tweak.su
 tagline:    "Типичный сайт типичного программиста"
 url:        http://tweak.su
-paginate:   1
+paginate:   10
 baseurl:    ""
 
 timezone: 	"Europe/Moscow"
+
