@@ -21,7 +21,7 @@ categories: Obvious
 
 ![Turn Off](/files/second-screen/Screenshot_2016-06-14-06-49-59.png "Turn Off")
 
-В качестве бопуса заметно возрасла скорость в играх. Для этого создал отдельный профиль:
+В качестве бонуса заметно возросла скорость в играх. Для этого создал отдельный профиль:
 
 ![Games](/files/second-screen/Screenshot_2016-06-14-06-49-15.png "Games")
 
