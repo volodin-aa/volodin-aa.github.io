@@ -114,7 +114,8 @@ Geekbench 3 32 Bit Single-Core Score Exynos 7578 и Octa имеют пример
 
 Стоит заметить, что в Apple iPad Pro используется всего лишь  2-х ядерный процессор 
 [A9X](http://www.notebookcheck.net/Apple-A9X-Tablet-SoC.150543.0.html) набирающий
-в тесте Geekbench 3 - 64 Bit Single-Core Score 3139.5 баллов, а в [Octane V2](https://chromium.github.io/octane/)
+в тесте Geekbench 3 - 64 Bit Single-Core Score 3139.5 баллов,
+в Geekbench 3 - 64 Bit Multi-Core 5343.5 балла и в [Octane V2](https://chromium.github.io/octane/)
 19736.5 баллов.
 
 ## Выводы
