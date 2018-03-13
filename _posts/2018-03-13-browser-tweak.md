@@ -32,8 +32,8 @@ categories: Obvious
 
 На примере Yandex Browser 18.1.1.839
 
-Тест | NVidia GT 650M | Intel 
-     |----------------|-------
-     | Результат      | Примечание
+Тест | NVidia GT 650M              | Intel 
+     | Результат      | Примечание | Результат      | Примечание
+-----|----------------|------------|----------------|------------
 Motion Mark 1.0  | 273.05±2.14% | [MotionMark](http://browserbench.org/MotionMark/)                              | 253.10±1.76% | 
 Basemark Web 3.0 | 472.72       | [web.basemark.com/result/?4JWdTBBN](https://web.basemark.com/result/?4JWdTBBN) | 343.64       | [web.basemark.com/result/?4JWfIBmE](https://web.basemark.com/result/?4JWfIBmE)
