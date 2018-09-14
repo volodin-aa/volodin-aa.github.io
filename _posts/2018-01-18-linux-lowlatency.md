@@ -86,22 +86,3 @@ $ gnome-disks
 ```
 
 В меню диска пункт "Параметры привода...", вкладка "Кэш записи".
-
-## Уменьшаем фрагментацию памяти
-
-Записываем в переменную окружения MALLOC_ARENA_MAX количество
-потоков процессора. По умолчанию система использует значение 8 * количество
-потоков, что может привести к излишней фрагментации памяти 
-[Consider lowering MALLOC_ARENA_MAX to prevent native memory OOM](https://github.com/prestodb/presto/issues/8993)
-
-Для этого в файле /etc/environment
-
-```
-$ sudo vim /etc/environment
-```
-
-добавляем значение переменной окружения
-
-```
-MALLOC_ARENA_MAX=4
-```
